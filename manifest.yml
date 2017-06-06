@@ -1,0 +1,10 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instances: 1
+    memory: 1G
+    name: roster
+    random-route: true
+    services: 
+      - db
